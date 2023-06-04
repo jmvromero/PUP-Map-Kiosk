@@ -1,0 +1,417 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Homemade+Apple&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;800&display=swap');
+
+
+
+	*
+	{
+		margin: 0;
+		padding: 0;
+		border: 0;
+		outline: 0;
+		box-sizing: border-box;
+		
+	}
+	
+	html
+	{
+		   scroll-behavior: smooth;
+	}
+		
+	body 
+	{
+		background: white;
+		align-items: center;
+		justify-content: center;
+	}
+	
+	h1
+	{
+		font-family: 'Montserrat', sans-serif;
+		font-size: 60px;
+		color: white;
+	}
+	
+	h3 
+	{
+		font-family: 'Poppins', sans-serif;
+		color: white;
+		font-weight: normal;
+	}
+	
+	/* Header Section */
+	header
+	{
+		position: fixed;
+		width: 100%;
+		z-index: 1;
+	}
+	
+	header ul
+	{
+		font-family: 'Montserrat', sans-serif;
+		display: flex;
+		background: white;
+		padding: 5px;
+		flex-direction: row;
+		align-items: center;
+		border-bottom: 1px solid black;
+	}
+	
+	header ul li
+	{
+		list-style: none;
+	}
+
+	header ul li a
+	{
+		text-decoration: none;
+		color: black;
+		font-weight: bold;
+		transition: all .55s ease;
+		border-bottom: 2px solid transparent;
+	}
+	
+	header a:hover
+	{
+		border-bottom: 2px solid black;
+	}
+
+	header .puplogo
+	{
+		margin-left:30px;
+		width: 70px;
+		height: 70px;
+	}
+	
+	header .navHome
+	{
+		margin-left: 80px;
+	}
+	
+	header .navMap
+	{
+		margin-left: 50px;
+	}
+	
+	header .navContact
+	{
+		margin-left: 50px;
+	}
+	
+	header .navAbout
+	{
+		margin-left: 50px;
+	}
+	
+	header .navEng
+	{
+		margin-left: 830px;
+		font-size: 12px;	
+	}
+	
+	header .navFil
+	{
+		margin-left: 20px;
+		font-size: 12px;
+	}
+	
+	/* Home Section */
+	
+	/* .home .homebg */
+	/* { */
+		/* width: 1518px; */
+		/* height: 810px; */
+	/* } */
+	
+	.home .centerhomebg
+	{
+		background-image: url('homebg.png');
+		background-size: cover;
+		background-position: center;
+		align-items: center;
+	}
+	
+	.home .puplogo
+	{
+		width: 300px;
+		height: 300px;
+	}
+	
+	/* About Section */
+	
+	.about h1
+	{
+		font-family: 'Montserrat', sans-serif;
+		font-size: 70px;
+		color: black;
+	}
+	
+	.about h2
+	{
+		font-family: 'Montserrat', sans-serif;
+		font-size: 40px;
+		color: white;
+	}
+	
+	.about p
+	{
+		font-family: 'Montserrat', sans-serif;
+		font-size: 20px;
+		color: white;
+	}
+	
+	.about .aboutcontainer
+	{
+		margin-top: 200px;
+		line-height: 150px;
+	}
+	
+	.about .descrip
+	{	
+		margin-top: 200px;
+		background: black;
+	}
+	
+	/* Map Section */
+	
+	.map
+	{
+		cursor: url('https://media.discordapp.net/attachments/1093960909078155345/1113688990407729282/Untitled_design_5.png?width=55&height=55'), auto;
+	}
+	
+	.mapcontainer h1
+	{
+		font-family: 'Montserrat', sans-serif;
+		font-size: 40px;
+		color: black;
+	}
+	
+	.mapcontainer h3
+	{
+		font-family: 'Homemade Apple', cursive;
+		font-size: 20px;
+		color: black;
+	}
+	
+	.mapcontainer2 h1
+	{
+		font-family: 'Montserrat', sans-serif;
+		font-size: 40px;
+		color: white;
+	}
+	
+	.mapcontainer2 h3
+	{
+		font-family: 'Homemade Apple', cursive;
+		font-size: 20px;
+		color: white;
+	}
+	
+	.map p
+	{
+		font-family: 'Montserrat', sans-serif;
+		font-size: 10px;
+		color: white;
+		padding: 5px;
+	}
+	
+	.map .mapcontainer
+	{
+		margin-top: 50px;
+	}
+	
+	.map .mappicture
+	{
+		width: 1000px;
+		height: 600px;
+		border-radius: 10px;
+	}
+	
+	.map .mapcontainer2
+	{
+		margin-top: 50px;
+		background: black;
+	}
+	
+	/* Containers of Places */
+	.gymnasiumcontainer
+	{
+		position: absolute;
+		right: 220px; 
+		top:2500px; 
+		width:300px; 
+		height: 310px; 
+		background-color: rgba(0, 0, 0, 0.8);
+		border-radius: 10px;
+		display: none;
+	}
+	
+	.chapelcontainer
+	{
+		position: absolute;
+		right: 440px; 
+		top:2630px; 
+		width:300px; 
+		height: 320px; 
+		background-color: rgba(0, 0, 0, 0.8);
+		border-radius: 10px;
+		display: none;
+	}
+	
+	.freedomparkcontainer
+	{
+		position: absolute;
+		right: 395px; 
+		top:2725px; 
+		width:300px; 
+		height: 300px; 
+		background-color: rgba(0, 0, 0, 0.8);
+		border-radius: 10px;
+		display: none;
+	}
+	
+	.librarycontainer
+	{
+		position: absolute;
+		right: 560px; 
+		top:2530px; 
+		width:300px; 
+		height: 300px; 
+		background-color: rgba(0, 0, 0, 0.8);
+		border-radius: 10px;
+		display: none;
+	}
+	
+	.fieldcontainer
+	{
+		position: absolute;
+		right: 200px; 
+		top:2565px; 
+		width:300px; 
+		height: 330px; 
+		background-color: rgba(0, 0, 0, 0.8);
+		border-radius: 10px;
+		display: none;
+	}
+	
+	.lagooncontainer
+	{
+		position: absolute;
+		right: 540px; 
+		top:2665px; 
+		width:300px; 
+		height: 300px; 
+		background-color: rgba(0, 0, 0, 0.8);
+		border-radius: 10px;
+		display: none;
+	}
+	
+	.amphitheatercontainer
+	{
+		position: absolute;
+		right: 560px; 
+		top:2745px; 
+		width:300px; 
+		height: 300px; 
+		background-color: rgba(0, 0, 0, 0.8);
+		border-radius: 10px;
+		display: none;
+	}
+	
+	.linearparkcontainer
+	{
+		position: absolute;
+		right: 765px; 
+		top:2500px; 
+		width:300px; 
+		height: 300px; 
+		background-color: rgba(0, 0, 0, 0.8);
+		border-radius: 10px;
+		display: none;
+	}
+	
+	.pasigrivercontainer
+	{
+		position: absolute;
+		right: 880px; 
+		top:2455px; 
+		width:300px; 
+		height: 300px; 
+		background-color: rgba(0, 0, 0, 0.8);
+		border-radius: 10px;
+		display: none;
+	}
+	
+	.charliecontainer
+	{
+		position: absolute;
+		right: 730px; 
+		top:2645px; 
+		width:300px; 
+		height: 300px; 
+		background-color: rgba(0, 0, 0, 0.8);
+		border-radius: 10px;
+		display: none;
+	}
+	
+	.nutritioncontainer
+	{
+		position: absolute;
+		right: 730px; 
+		top: 2725px; 
+		width:300px; 
+		height: 300px; 
+		background-color: rgba(0, 0, 0, 0.8);
+		border-radius: 10px;
+		display: none;
+	}
+	
+	
+	.swimmingpoolcontainer
+	{
+		position: absolute;
+		right: 650px; 
+		top: 2500px; 
+		width:300px; 
+		height: 300px; 
+		background-color: rgba(0, 0, 0, 0.8);
+		border-radius: 10px;
+		display: none;
+	}
+	
+	.courtcontainer
+	{
+		position: absolute;
+		right: 600px; 
+		top: 2590px; 
+		width:300px; 
+		height: 300px; 
+		background-color: rgba(0, 0, 0, 0.8);
+		border-radius: 10px;
+		display: none;
+	}
+	
+	/* Footer Section */
+	
+	footer
+	{
+		height: 170px;
+		background: black;
+	}
+	
+	footer h1
+	{
+		font-family: 'Montserrat', sans-serif;
+		font-size: 40px;
+		color: white;
+	}
+	
+	footer p
+	{
+		font-family: 'Montserrat', sans-serif;
+		font-size: 15px;
+		color: white;
+	}

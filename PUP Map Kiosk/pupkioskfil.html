@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en-US">
+	<head>
+	<!-- Character Set  -->
+	<meta charset="utf-8"/>
+	
+	<!-- Viewport  -->
+	<meta name="viewport" content="width=800, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<!-- Title  -->
+	<title>
+	PUP Map Kiosk | An interactive guide map for PUPians.
+	</title>
+	
+	<!-- font  -->
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+	
+	<!-- icon  -->
+	<link rel="icon" href="https://media.discordapp.net/attachments/1093960909078155345/1095270187072225351/puplogo.png?width=644&height=643" type="image/x-icon"/>
+	
+	<!-- css  -->
+	<link rel="stylesheet" type="text/css" href= "pupkioskstyle.css">
+	
+	<!--script -->
+	<script src="pupkioskjs.js"></script>
+	</head>
+	
+	<body>
+	<!-- Header -->
+	<header>
+		<nav>
+			<ul>
+			<li><a href="pupkiosk.html"><img class="puplogo" src="https://media.discordapp.net/attachments/1093960909078155345/1095270187072225351/puplogo.png?width=644&height=643"/></a></li>
+			<li><a href="#Home" class="navHome">Main</a></li>
+			<li><a href="#About" class="navAbout">Tungkol</a></li>
+			<li><a href="#Map" class="navMap">Mapa</a></li>
+			<li><a href="#Contact" class="navMap">Ugnayan</a></li>
+			<li><a href="pupkiosk.html" class="navEng">ENG</a></li>
+			<li><a href="pupkioskfil.html" class="navFil">FIL</a></li>
+			</ul>
+		</nav>
+	</header>
+	
+	<!-- Home Section -->
+	<section class="home" id="Home">
+		<!-- <img class="homebg" src="homebg.png"/> -->
+		<div class="centerhomebg">
+			<center>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<img class="puplogo" src="https://media.discordapp.net/attachments/1093960909078155345/1095270187072225351/puplogo.png?width=644&height=643"/>
+			<h1>PUP Mapa Kiosk</h1>
+			<h3>Isang interactive na gabay mapa para sa PUPians</h3>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>			
+			</center>
+		</div>
+	</section>
+	
+	<!-- About Section -->
+	<div id="About"> </div>
+	<section class="about">
+		<center>
+			<div class="aboutcontainer">
+				<center>
+					<h1>Nagdadala ng modernisadong<br>gabay mapa ng PUP<br>para sa mabisang pag-navigate.</h1>	
+				</center>
+			</div>
+			<div class="descrip">
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+				<h2>Tungkol</h2>
+				<br>
+				<p><i><b>PUP Mapa Kiosk</b></i> ay isang bagong tampok na tutulong sa mga PUPians <br> 
+				para sa navigasyon sa loob ng unibersidad. <br>
+				<br>
+				Ang tagubilin para sa tampok na ito ay simple. <br>
+				Ang user ay dapat mag-hover sa bawat lugar sa <br>
+				ibaba ng mapa upang tingnan ang impormasyon nito. <br>
+				<br>
+				Yan lang! Mag-eksplora na ngayon! </p>
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+			</div>
+		</center>
+	</section>
+	
+	<!-- Map Section -->
+	<section class="map" id="Map">
+			<div class="mapcontainer">
+				<center>
+					<h1>Mapa</h1>
+					<h3>Sta. Mesa, Manila</h3>	
+					<img class="mappicture" src="main.gif" usemap="#pupmap" width="1000" height="600"/>
+					<br>
+					<br>
+					<h3>Ilapit ang kursor!</h3>
+					<br>
+				</center>
+			</div>
+			
+			<!-- Getting the area of targeted places of PUP Map Photo -->
+			<map name="pupmap">
+			<area class="gymarea" id="gymarea" shape="rect" coords="686,27,801,110" title="Gymnasium">
+			<area class="chapelarea" id="chapelarea" shape="poly" coords="484,457,523,440,560,458,577,494,562,534,523,550,484,534,467,497" title="Chapel">
+			<area class="freedomparkarea" id="freedomparkarea" shape="poly" coords="603,272,568,274,562,271,560,270,556,272,552,274,507,318,509,320,514,318,519,318,541,357,534,364,538,368,541,367,545,375,543,378,544,382,556,371,600,274,579,323" title="Freedom Park">
+			<area class="libraryarea" id="libraryarea" shape="poly" coords="459,71,464,86,472,106,440,117,399,130,411,160,426,206,408,214,392,218,378,182,364,143,360,131,356,114,351,98,335,55,326,31,327,29,340,23,361,18,375,57,387,93,420,82,458,70" title="NALLRC">
+			<area class="fieldarea" id="fieldarea" shape="poly" coords="747,304,639,452,631,476,628,492,628,504,629,514,636,531,642,548,654,562,665,574,680,581,694,586,708,590,726,589,740,589,752,584,761,580,765,577,769,575,776,570,786,564,816,521,836,490,868,449,894,413,899,396,903,384,904,368,901,350,896,337,890,323,881,312,866,296,857,292,834,281,820,280,805,279,798,280,787,282,776,285,759,294,748,302,743,308,717,344" title="Field">
+			<area class="lagoonarea" id="lagoonarea" shape="poly" coords="362,287,368,284,378,282,386,280,389,277,388,267,386,252,388,240,396,230,404,223,412,221,419,222,428,220,434,216,434,205,436,192,434,172,440,160,452,149,466,150,472,152,480,162,486,167,490,175,489,188,484,198,476,206,470,214,465,218,464,224,460,242,453,254,448,263,437,275,424,287,414,292,408,294,404,296,396,299,388,299,376,299,367,304,362,306" title="Lagoon">
+			<area class="amphitheaterarea" id="amphitheaterarea" shape="poly" coords="387,305,384,305,367,308,366,310,369,318,376,327,381,333,392,338,404,340,416,336,420,334,411,318,414,316,406,304,405,302" title="Amphitheater">
+			<area class="linearparkarea" id="linearparkarea" shape="poly" coords="112,110,116,109,216,417,282,529,267,534,253,540,208,419,112,110" title="Linear Park">
+			<area class="pasigriverarea" id="pasigriverarea" shape="poly" coords="0,1,41,0,42,7,68,43,97,87,156,280,264,598,140,598,1,596,0,345,-1,187,0,47" title="Pasig River">
+			<area class="charliearea" id="charliearea" shape="poly" coords="191,169,181,187,171,202,277,266,288,250,297,232,244,202,197,174" title="Charlie del Rosario Hall">
+			<area class="nutritionarea" id="nutritionarea" shape="rect" coords="436,577,587,598" title="Nutrition and Food Science Building">
+			<area class="swimmingpoolarea" id="swimmingpoolarea" shape="poly" coords="661,26,566,20,564,34,556,38,552,88,565,118,657,122,664,46,658,42" title="Swimming Pool"/>
+			<area class="courtarea" id="courtarea" shape="rect" coords="616,128,702,190" title="Outdoor Basketball and Volleyball Court">
+			</map>
+			
+			<!-- Making container for the description of each places. -->
+			<div class="gymnasiumcontainer" id="gymnasiumcontainer">
+			<center>
+			<br>
+			<p><b>PUP Gymnasium</b></p>
+			<br>
+			<img class="gym" src="gym.png" style="width:250px; height: 150px; border-radius: 10px;"/>
+			<br>
+			<br>
+			<p>Ang Gymnasium ng Unibersidad ay matatagpuan malapit sa Tennis court. 
+			Ang Gymnasium ng Unibersidad ay naglilingkod bilang pook ng pagsasanay
+			para sa mga estudyanteng atleta na nakikiisa sa intercollegiate sports program.</p>
+			</center>
+			</div>
+
+			<div class="chapelcontainer" id="chapelcontainer">
+			<center>
+			<br>
+			<p><b>Interfaith Chapel</b></p>
+			<br>
+			<img class="chapel" src="chapel.jpg" style="width:250px; height: 150px; border-radius: 10px;"/>
+			<br>
+			<br>
+			<p>Ang Interfaith Chapel, na matatagpuan malapit sa Nutrition and Food Science Building at East Wing, 
+			ay isang espasyo na nilalaan para sa mga mag-aaral at kawani ng iba't ibang pananampalatayang pagsama-samahin 
+			ang kanilang mga panalangin, pagninilay, at pakikipagkapwa.</p>
+			</center>
+			</div>
+
+			<div class="freedomparkcontainer" id="freedomparkcontainer">
+			<center>
+			<br>
+			<p><b>Freedom Park</b></p>
+			<br>
+			<img class="freedompark" src="freedompark2.jpg" style="width:250px; height: 150px; border-radius: 10px;"/>
+			<br>
+			<br>
+			<p>Ang Freedom Park ay isang 1.5-hektaryang bukás na espasyo na matatagpuan sa puso ng kampus ng Polytechnic University of the Philippines (PUP).</p>
+			</center>
+			</div>
+			
+			<div class="librarycontainer" id="librarycontainer">
+			<center>
+			<br>
+			<p><b>Ninoy Aquino Library and Learning Resources Center</b></p>
+			<br>
+			<img class="NALLRC" src="library.jpg" style="width:250px; height: 150px; border-radius: 10px;"/>
+			<br>
+			<br>
+			<p>Ang NALLRC ay ang pangunahing aklatan ng Polytechnic University of the Philippines. 
+			Ito ay isang tatlong-palapag na gusali na naglalaman ng koleksyon ng higit sa 100,000 aklat, journal, at iba pang kagamitan.</p>
+			</center>
+			</div>
+			
+			<div class="fieldcontainer" id="fieldcontainer">
+			<center>
+			<br>
+			<p><b>Track and Football Oval</b></p>
+			<br>
+			<img class="field" src="field.jpg" style="width:250px; height: 150px; border-radius: 10px;"/>
+			<br>
+			<br>
+			<p>Ang oval na ito ay isang 100-metro na track and field oval na matatagpuan sa kampus ng PUP. 
+			Ito ay ginagamit para sa iba't ibang aktibidad sa palakasan, kasama na ang track and field, football, at rugby. 
+			Ang oval ay isang tanyag na lugar din para sa mga mag-aaral upang magpahinga at magpakalma.</p>
+			</center>
+			</div>
+			
+			<div class="lagooncontainer" id="lagooncontainer">
+			<center>
+			<br>
+			<p><b>Lagoon</b></p>
+			<br>
+			<img class="lagoon" src="lagoon2.jpg" style="width:250px; height: 150px; border-radius: 10px;"/>
+			<br>
+			<br>
+			<p>Ito ay isang tanyag na lugar para sa mga mag-aaral na magpahinga, magkasama kasama ang mga kaibigan, at kumain. 
+			Ang lagoon ay tahanan din ng iba't ibang mga food stall, mga halaman, at mga tao.</p>
+			</center>
+			</div>
+			
+			<div class="amphitheatercontainer" id="amphitheatercontainer">
+			<center>
+			<br>
+			<p><b>Amphitheater</b></p>
+			<br>
+			<img class="amphitheater" src="amphitheater.jpg" style="width:250px; height: 150px; border-radius: 10px;"/>
+			<br>
+			<br>
+			<p>Ito ay isang open-air na teatro na matatagpuan sa kampus ng PUP. 
+			Ito ay ginagamit para sa iba't ibang mga kaganapan, kasama na ang mga konsiyerto, dula, at mga rally.
+			Ang amphitheater ay isang tanyag na lugar din para sa mga mag-aaral upang magpahinga at magpakalma.</p>
+			</center>
+			</div>
+			
+			<div class="linearparkcontainer" id="linearparkcontainer">
+			<center>
+			<br>
+			<p><b>Linear Park</b></p>
+			<br>
+			<img class="linearpark" src="linearpark.jpg" style="width:250px; height: 150px; border-radius: 10px;"/>
+			<br>
+			<br>
+			<p>Ang parke na ito ay isang mahabang, makipot na parke na matatagpuan sa tabi ng Ilog Pasig. 
+			Ito ay isang tanyag na lugar para sa mga mag-aaral na magpahinga, maglakad, at magbisikleta.</p>
+			</center>
+			</div>
+			
+			<div class="pasigrivercontainer" id="pasigrivercontainer">
+			<center>
+			<br>
+			<p><b>Pasig River</b></p>
+			<br>
+			<img class="pasigriver" src="pasigriver.jpg" style="width:250px; height: 150px; border-radius: 10px;"/>
+			<br>
+			<br>
+			<p>Ito ang ilog na dumadaloy sa puso ng Metro Manila. 
+			Ito rin ay isang tanyag na lugar para sa mga mag-aaral na magpahinga at magpakalma. .
+			Ang Ilog Pasig ay tahanan din ng iba't ibang mga halaman at hayop.</p>
+			</center>
+			</div>
+			
+				
+			<div class="charliecontainer" id="charliecontainer">
+			<center>
+			<br>
+			<p><b>Charlie del Rosario Hall</b></p>
+			<br>
+			<img class="charlie" src="charlie.jpg" style="width:250px; height: 150px; border-radius: 10px;"/>
+			<br>
+			<br>
+			<p>Ang Charlie del Rosario Hall ay isang multi-purpose hall na matatagpuan sa kampus ng PUP. 
+			Ito ay ginagamit para sa iba't ibang mga kaganapan.</p>
+			</center>
+			</div>
+			
+			<div class="nutritioncontainer" id="nutritioncontainer">
+			<center>
+			<br>
+			<p><b>Nutrition and Food Science</b></p>
+			<br>
+			<img class="nutrition" src="nutrition.jpg" style="width:250px; height: 150px; border-radius: 10px;"/>
+			<br>
+			<br>
+			<p>Ang Nutrition and Food Science ay isang apat-palapag na gusali na matatagpuan sa Polytechnic University of the Philippines (PUP) - Sta. Mesa campus. 
+			Ito ang tahanan ng College of Nutrition and Food Science (CNFS).</p>
+			</center>
+			</div>
+			
+				
+			<div class="swimmingpoolcontainer" id="swimmingpoolcontainer">
+			<center>
+			<br>
+			<p><b>Swimming Pool</b></p>
+			<br>
+			<img class="swimmingpool" src="swimmingpool.jpg" style="width:250px; height: 150px; border-radius: 10px;"/>
+			<br>
+			<br>
+			<p>Ang Swimming Pool ay isang Olympic-sized na pool na may kakayahang mag-host ng ilang swimming classes at 
+			mga aktibidad ng mga estudyante-athlete nang sabay-sabay.</p>
+			</center>
+			</div>
+			
+			<div class="courtcontainer" id="courtcontainer">
+			<center>
+			<br>
+			<p><b>Outdoor Basketball and Volleyball Court</b></p>
+			<br>
+			<img class="court" src="court.jpg" style="width:250px; height: 150px; border-radius: 10px;"/>
+			<br>
+			<br>
+			<p>Ang outdoor gym na ito ay angkop para sa basketball, tennis, at iba pang mga laro na ginagamit sa Palarong Pambansa.</p>
+			</center>
+			</div>
+	</section>
+	
+	<!-- Footer Section (Contacts) -->
+	<footer id="Contact">
+	<center>
+	<br>
+	<p><b>PUP Mapa Kiosk</b></p><br>
+	<p>Mga Ugnayan<br>
+	<b>Phone</b>: (+63 2) 5335-1PUP (5335-1787) or 5335-1777<br>
+	<b>Email</b>: inquire@pup.edu.ph </p><br>
+	<p>© 1998-2021 Polytechnic University of the Philippines</p>
+	</center>
+	</footer>
+	</body>
+	
+	
+</html>
